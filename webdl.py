@@ -36,11 +36,11 @@ realPath = os.path.realpath(currentFile)
 dirPath = os.path.dirname(realPath)
 dirName = os.path.basename(dirPath)
 
-youtubedlexe = dirPath + '/binaries/yt-dlp.exe'
-aria2cexe = dirPath + '/binaries/aria2c.exe'
-mp4decryptexe = dirPath + '/binaries/mp4decrypt_new.exe'
-mkvmergeexe = dirPath + '/binaries/mkvmerge.exe'
-SubtitleEditexe = dirPath + '/binaries/SubtitleEdit.exe'
+youtubedlexe = dirPath + '/content/widevine-L3-WEB-DL-Script/binaries/yt-dlp.exe'
+aria2cexe = dirPath + '/content/widevine-L3-WEB-DL-Script/binaries/aria2c.exe'
+mp4decryptexe = dirPath + '/content/widevine-L3-WEB-DL-Script/binaries/mp4decrypt_new.exe'
+mkvmergeexe = dirPath + '/content/widevine-L3-WEB-DL-Script/binaries/mkvmerge.exe'
+SubtitleEditexe = dirPath + '/content/widevine-L3-WEB-DL-Script/binaries/SubtitleEdit.exe'
 
 # mpdurl = str(args.mpd)
 output = str(args.output)
